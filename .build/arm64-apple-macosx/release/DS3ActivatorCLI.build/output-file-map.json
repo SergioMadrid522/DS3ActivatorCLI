@@ -1,0 +1,13 @@
+{
+  "": {
+    "dependencies": "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/DS3ActivatorCLI.build/DS3ActivatorCLI.d",
+    "object": "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/DS3ActivatorCLI.build/DS3ActivatorCLI.o",
+    "swift-dependencies": "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/DS3ActivatorCLI.build/master.swiftdeps"
+  },
+  "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/Sources/DS3ActivatorCLI/main.swift": {
+    "object": "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/DS3ActivatorCLI.build/main.swift.o",
+    "swiftmodule": "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/DS3ActivatorCLI.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/DS3ActivatorCLI.build/main.swiftdeps",
+    "diagnostics": "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/DS3ActivatorCLI.build/main.dia"
+  }
+}

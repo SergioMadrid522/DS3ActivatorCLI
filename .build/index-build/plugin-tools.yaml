@@ -1,0 +1,47 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "DS3ActivatorCLI-arm64-apple-macosx26.0-debug.module": ["<DS3ActivatorCLI-arm64-apple-macosx26.0-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<DS3ActivatorCLI-arm64-apple-macosx26.0-debug.module>"]
+  "test": ["<DS3ActivatorCLI-arm64-apple-macosx26.0-debug.module>"]
+default: "main"
+nodes:
+  "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/Sources/DS3ActivatorCLI/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/index-build/arm64-apple-macosx/debug/DS3ActivatorCLI.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/Sources/DS3ActivatorCLI/main.swift"]
+    outputs: ["/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/index-build/arm64-apple-macosx/debug/DS3ActivatorCLI.build/sources"]
+    description: "Write auxiliary file /Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/index-build/arm64-apple-macosx/debug/DS3ActivatorCLI.build/sources"
+
+  "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/index-build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Library/Developer/CommandLineTools/usr/bin/swiftc"]
+    outputs: ["/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/index-build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/index-build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+
+  "<DS3ActivatorCLI-arm64-apple-macosx26.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/index-build/arm64-apple-macosx/debug/Modules/DS3ActivatorCLI.swiftmodule"]
+    outputs: ["<DS3ActivatorCLI-arm64-apple-macosx26.0-debug.module>"]
+
+  "C.DS3ActivatorCLI-arm64-apple-macosx26.0-debug.module":
+    tool: shell
+    inputs: ["/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/Sources/DS3ActivatorCLI/main.swift","/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/index-build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt","/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/index-build/arm64-apple-macosx/debug/DS3ActivatorCLI.build/sources"]
+    outputs: ["/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/index-build/arm64-apple-macosx/debug/Modules/DS3ActivatorCLI.swiftmodule"]
+    description: "Compiling Swift Module 'DS3ActivatorCLI' (1 sources)"
+    args: ["/Library/Developer/CommandLineTools/usr/bin/swiftc","-module-name","DS3ActivatorCLI","-emit-dependencies","-emit-module","-emit-module-path","/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/index-build/arm64-apple-macosx/debug/Modules/DS3ActivatorCLI.swiftmodule","-output-file-map","/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/index-build/arm64-apple-macosx/debug/DS3ActivatorCLI.build/output-file-map.json","-incremental","@/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/index-build/arm64-apple-macosx/debug/DS3ActivatorCLI.build/sources","-I","/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/index-build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx12.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-Onone","-enable-testing","-j10","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/index-build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","DS3ActivatorCLI_main","-swift-version","5","-Xfrontend","-experimental-lazy-typecheck","-Xfrontend","-experimental-skip-all-function-bodies","-Xfrontend","-experimental-allow-module-with-compiler-errors","-Xfrontend","-empty-abi-descriptor","-I","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-L","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-plugin-path","/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-g","-Xcc","-isysroot","-Xcc","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-Xcc","-fPIC","-Xcc","-g","-package-name","ds3activatorcli"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/Sources/DS3ActivatorCLI/","/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/Package.swift","/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

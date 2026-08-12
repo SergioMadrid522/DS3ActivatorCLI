@@ -1,0 +1,44 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/DS3ActivatorCLI'
+relocations:
+  - { offset: 0xD4619, size: 0x8, addend: 0x0, symName: '_$s15DS3ActivatorCLI10controllerAA0A13HIDControllerCSgvp', symObjAddr: 0xCA98, symBinAddr: 0x10000C5A8, symSize: 0x0 }
+  - { offset: 0xD47B5, size: 0x8, addend: 0x0, symName: _DS3ActivatorCLI_main, symObjAddr: 0x0, symBinAddr: 0x100001C64, symSize: 0x1B0 }
+  - { offset: 0xD48C7, size: 0x8, addend: 0x0, symName: '_$s15DS3ActivatorCLI3logyySSF', symObjAddr: 0x1B0, symBinAddr: 0x100001E14, symSize: 0x1DC }
+  - { offset: 0xD4A49, size: 0x8, addend: 0x0, symName: '_$s15DS3ActivatorCLI0A13HIDControllerCMa', symObjAddr: 0x38C, symBinAddr: 0x100001FF0, symSize: 0x20 }
+  - { offset: 0xD4A5D, size: 0x8, addend: 0x0, symName: '_$s15DS3ActivatorCLIySo14IOHIDDeviceRefacfU_', symObjAddr: 0x3AC, symBinAddr: 0x100002010, symSize: 0x13C }
+  - { offset: 0xD4ACA, size: 0x8, addend: 0x0, symName: '_$s15DS3ActivatorCLIySo14IOHIDDeviceRefacfU0_', symObjAddr: 0x7B4, symBinAddr: 0x100002418, symSize: 0x130 }
+  - { offset: 0xD4B9E, size: 0x8, addend: 0x0, symName: '_$s15DS3ActivatorCLIys5Int32VcfU1_To', symObjAddr: 0x9F8, symBinAddr: 0x10000265C, symSize: 0x30 }
+  - { offset: 0xD4C2F, size: 0x8, addend: 0x0, symName: '_$sSo14IOHIDDeviceRefaIegg_SgWOe', symObjAddr: 0xE64, symBinAddr: 0x100002AC8, symSize: 0x10 }
+  - { offset: 0xD4C81, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x15D0, symBinAddr: 0x100003234, symSize: 0x64 }
+  - { offset: 0xD4CB9, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSO_Tg5', symObjAddr: 0x1634, symBinAddr: 0x100003298, symSize: 0x30 }
+  - { offset: 0xD4D07, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x1664, symBinAddr: 0x1000032C8, symSize: 0xB4 }
+  - { offset: 0xD4D69, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSO_Tg5', symObjAddr: 0x1718, symBinAddr: 0x10000337C, symSize: 0x6C }
+  - { offset: 0xD4DB7, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSO_Spys5UInt8VGTg5', symObjAddr: 0x1784, symBinAddr: 0x1000033E8, symSize: 0x16C }
+  - { offset: 0xD4E61, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV4copyyyFSO_Spys5UInt8VGTg5', symObjAddr: 0x18F0, symBinAddr: 0x100003554, symSize: 0x148 }
+  - { offset: 0xD4F06, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameV2, symObjAddr: 0x1A38, symBinAddr: 0x10000369C, symSize: 0x50 }
+  - { offset: 0xD4F1A, size: 0x8, addend: 0x0, symName: '_$sSo17OS_dispatch_queueCMa', symObjAddr: 0x1A88, symBinAddr: 0x1000036EC, symSize: 0x44 }
+  - { offset: 0xD4F2E, size: 0x8, addend: 0x0, symName: '_$s15DS3ActivatorCLI0A13HIDControllerC18activateController_5namedySo14IOHIDDeviceRefa_SStFyyYbcfU_TA', symObjAddr: 0x1B00, symBinAddr: 0x100003764, symSize: 0xC }
+  - { offset: 0xD4F42, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x1B0C, symBinAddr: 0x100003770, symSize: 0x10 }
+  - { offset: 0xD4F56, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x1B1C, symBinAddr: 0x100003780, symSize: 0x8 }
+  - { offset: 0xD4F6A, size: 0x8, addend: 0x0, symName: '_$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWl', symObjAddr: 0x1B24, symBinAddr: 0x100003788, symSize: 0x44 }
+  - { offset: 0xD4F7E, size: 0x8, addend: 0x0, symName: '_$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWl', symObjAddr: 0x1B68, symBinAddr: 0x1000037CC, symSize: 0x50 }
+  - { offset: 0xD4F92, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameAbstractV2, symObjAddr: 0x1BB8, symBinAddr: 0x10000381C, symSize: 0x54 }
+  - { offset: 0xD4FB1, size: 0x8, addend: 0x0, symName: '_$s15DS3ActivatorCLI0A13HIDControllerC18activateController_5namedySo14IOHIDDeviceRefa_SStFyyYbcfU_yyScMYccfU1_TA', symObjAddr: 0x1C38, symBinAddr: 0x10000389C, symSize: 0x234 }
+  - { offset: 0xD51BB, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSO_Spys5UInt8VGTg5', symObjAddr: 0x1E6C, symBinAddr: 0x100003AD0, symSize: 0x260 }
+  - { offset: 0xD52B8, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSO_Spys5UInt8VGTg5', symObjAddr: 0x20CC, symBinAddr: 0x100003D30, symSize: 0x120 }
+  - { offset: 0xD543E, size: 0x8, addend: 0x0, symName: '_$sSS_yptWOh', symObjAddr: 0x23D0, symBinAddr: 0x100004034, symSize: 0x48 }
+  - { offset: 0xD5452, size: 0x8, addend: 0x0, symName: '_$sSo14IOHIDDeviceRefaIegg_SgWOy', symObjAddr: 0x2418, symBinAddr: 0x10000407C, symSize: 0x10 }
+  - { offset: 0xD5466, size: 0x8, addend: 0x0, symName: '_$sSS_yptWOc', symObjAddr: 0x2428, symBinAddr: 0x10000408C, symSize: 0x50 }
+  - { offset: 0xD547A, size: 0x8, addend: 0x0, symName: '_$sypWOb', symObjAddr: 0x2478, symBinAddr: 0x1000040DC, symSize: 0x10 }
+  - { offset: 0xD5701, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSO_Spys5UInt8VGTt0g5Tf4g_n', symObjAddr: 0x21EC, symBinAddr: 0x100003E50, symSize: 0xD8 }
+  - { offset: 0xD5833, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTt0g5Tf4g_n', symObjAddr: 0x22C4, symBinAddr: 0x100003F28, symSize: 0x10C }
+  - { offset: 0xD5B18, size: 0x8, addend: 0x0, symName: '_$s15DS3ActivatorCLI0A13HIDControllerC18activateController_5namedySo14IOHIDDeviceRefa_SStF', symObjAddr: 0x4E8, symBinAddr: 0x10000214C, symSize: 0x2CC }
+  - { offset: 0xD5C86, size: 0x8, addend: 0x0, symName: '_$s15DS3ActivatorCLI0A13HIDControllerC18activateController_5namedySo14IOHIDDeviceRefa_SStFyyYbcfU_', symObjAddr: 0x10B4, symBinAddr: 0x100002D18, symSize: 0x4E8 }
+  - { offset: 0xD5FE3, size: 0x8, addend: 0x0, symName: '_$s15DS3ActivatorCLI0A13HIDControllerC13releaseDeviceyySo14IOHIDDeviceRefaF', symObjAddr: 0x8E4, symBinAddr: 0x100002548, symSize: 0x114 }
+  - { offset: 0xD6118, size: 0x8, addend: 0x0, symName: '_$s15DS3ActivatorCLI0A13HIDControllerCACyKcfc', symObjAddr: 0xA28, symBinAddr: 0x10000268C, symSize: 0x43C }
+  - { offset: 0xD644E, size: 0x8, addend: 0x0, symName: '_$s15DS3ActivatorCLI0A13HIDControllerCACyKcfcySvSg_s5Int32VADSo14IOHIDDeviceRefatcfU_To', symObjAddr: 0xE74, symBinAddr: 0x100002AD8, symSize: 0x84 }
+  - { offset: 0xD64F9, size: 0x8, addend: 0x0, symName: '_$s15DS3ActivatorCLI0A13HIDControllerCACyKcfcySvSg_s5Int32VADSo14IOHIDDeviceRefatcfU0_To', symObjAddr: 0xEF8, symBinAddr: 0x100002B5C, symSize: 0x84 }
+  - { offset: 0xD654E, size: 0x8, addend: 0x0, symName: '_$s15DS3ActivatorCLI0A13HIDControllerCfd', symObjAddr: 0xF7C, symBinAddr: 0x100002BE0, symSize: 0xAC }
+  - { offset: 0xD657F, size: 0x8, addend: 0x0, symName: '_$s15DS3ActivatorCLI0A13HIDControllerCfD', symObjAddr: 0x1028, symBinAddr: 0x100002C8C, symSize: 0x20 }
+...

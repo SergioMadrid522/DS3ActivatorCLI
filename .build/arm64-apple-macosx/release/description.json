@@ -1,0 +1,221 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.DS3ActivatorCLI-arm64-apple-macosx26.0-release.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/DS3ActivatorCLI.build/sources",
+      "importPath" : "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/Sources/DS3ActivatorCLI/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/DS3ActivatorCLI.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "DS3ActivatorCLI",
+      "moduleOutputPath" : "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/Modules/DS3ActivatorCLI.swiftmodule",
+      "objects" : [
+        "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/DS3ActivatorCLI.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-whole-module-optimization",
+        "-num-threads",
+        "10",
+        "-serialize-diagnostics",
+        "-O",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "DS3ActivatorCLI_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-I",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-L",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-plugin-path",
+        "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "ds3activatorcli"
+      ],
+      "outputFileMapPath" : "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/DS3ActivatorCLI.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/DS3ActivatorCLI.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/Modules/DS3ActivatorCLI.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/Sources/DS3ActivatorCLI/main.swift"
+      ],
+      "tempsPath" : "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/DS3ActivatorCLI.build",
+      "wholeModuleOptimization" : true
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "DS3ActivatorCLI" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "DS3ActivatorCLI",
+      "-package-name",
+      "ds3activatorcli",
+      "-c",
+      "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/Sources/DS3ActivatorCLI/main.swift",
+      "-I",
+      "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-whole-module-optimization",
+      "-num-threads",
+      "10",
+      "-serialize-diagnostics",
+      "-O",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "DS3ActivatorCLI_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-I",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-L",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-plugin-path",
+      "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "ds3activatorcli",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "DS3ActivatorCLI" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/DS3ActivatorCLI.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/Sources/DS3ActivatorCLI/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/DS3ActivatorCLI.build/sources"
+    },
+    "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/DS3ActivatorCLI.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/DS3ActivatorCLI.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/DS3ActivatorCLI.product/Objects.LinkFileList"
+    },
+    "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/fabian/Desktop/proyectos/DS3Activator/DS3ActivatorCLI/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt"
+    }
+  }
+}
